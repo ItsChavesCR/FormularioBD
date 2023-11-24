@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QrCreator</title>
+    <script type="text/javascript" src="/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/qrcode.js"></script>
+    <link rel="stylesheet" href="/src/QR.css">
+</head>
+<body>
+    <header class="header"></header>
+
+    <main class="main">
+
+        <h3 class="title-carnet">CARNET ESTUDIANTIL</h3>
+   
+        <img class="logo-una" src="/mocks/Imagen1.png" alt="">
+    
+<div class="personal-information">
+
+  
+<p>Nombre Completo: <input class="input-nombre" id="Nombre" type="" placeholder="Digite su nombre"></p>
+<p>Carrera: <input class="input-carrera" id="Carrera" type="" placeholder="Digite su carrera"></p>
+<p>Nacimiento: <input class="input-nacimiento" id="Nacimiento" type="" placeholder="Digite su fecha de nacimiento"></p>
+<p>Cedula: <input class="input-QR" id="Cedula" type="text" placeholder="Digite su cedula" value="."/></p>
+</div>
+
+<button class="Btn-Create" id="EnviarDatos">Crear</button>
+
+    <div id="qrcode" class="qrcode" ></div>
+
+    </main>
+    <footer class="footer"></footer>
+</body>
+<script type="module" src="/js/QR.js"></script>
+</html>
